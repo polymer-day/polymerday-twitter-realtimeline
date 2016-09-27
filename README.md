@@ -2,7 +2,7 @@
 
 Twitter real timeline. It will track a 'active' hashtag from firebase
 
-**IMPORTANT**: In order to this web component works, the server side api (in other repo) needs to be up and running
+**IMPORTANT**: In order to this web component to be abble to list tweets, the server side [stream API](https://github.com/polymer-day/polymerday-twitter-stream-api) needs to be up and running
 
 ```html
 <polymer-twitter-realtimeline
