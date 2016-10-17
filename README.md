@@ -1,14 +1,14 @@
-# \<polymer-twitter-realtimeline\>
+# \<polymerday-twitter-realtimeline\>
 
 Twitter real timeline. It will track a 'active' hashtag from firebase
 
 **IMPORTANT**: In order to this web component to be abble to list tweets, the server side [stream API](https://github.com/polymer-day/polymerday-twitter-stream-api) needs to be up and running
 
 ```html
-<polymer-twitter-realtimeline
+<polymerday-twitter-realtimeline
             api-url-base="[[apiUrlBase]]"
             ...
-            ...></polymer-twitter-realtimeline>
+            ...></polymerday-twitter-realtimeline>
 ```
 
 ## Install the Polymer-CLI

@@ -1,5 +1,5 @@
 {
-  "name": "polymer-twitter-realtimeline",
+  "name": "polymerday-twitter-realtimeline",
   "version": "1.2.0",
   "authors": [
     "Edu Martin <emartinpicado@gmail.com>"
@@ -13,7 +13,7 @@
     "tweet",
     "timeline"
   ],
-  "main": "polymer-twitter-realtimeline.html",
+  "main": "polymerday-twitter-realtimeline.html",
   "license": "MIT",
   "ignore": [
     "**/.*",

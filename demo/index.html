@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>polymer-twitter-realtimeline demo</title>
+    <title>polymerday-twitter-realtimeline demo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
@@ -19,7 +19,7 @@
     <link rel="import" href="../../polymerfire/firebase-app.html">
     <link rel="import" href="../../polymerfire/firebase-auth.html">
     <link rel="import" href="../../polymerfire/firebase-document.html">
-    <link rel="import" href="../polymer-twitter-realtimeline.html">
+    <link rel="import" href="../polymerday-twitter-realtimeline.html">
 
     <style is="custom-style" include="demo-pages-shared-styles">
     </style>
@@ -66,7 +66,7 @@
           method="POST"></iron-ajax>
 
         <div class="vertical-section-container centered">
-          <h3>Basic polymer-twitter-realtimeline Demo</h3>
+          <h3>Basic polymerday-twitter-realtimeline Demo</h3>
           <form is="iron-form" id="form">
             <paper-input id="input" label="hashtag" required>
               <div prefix>#</div>
@@ -74,10 +74,10 @@
             <paper-button on-click="_doRequest" raised>TRACK</paper-button>
           </form>
 
-          <polymer-twitter-realtimeline
+          <polymerday-twitter-realtimeline
             api-url-base="[[apiUrlBase]]"
             language="es"
-            elapse="0"></polymer-twitter-realtimeline>
+            elapse="0"></polymerday-twitter-realtimeline>
         </div>
       </template>
       <script src="demo.js"></script>
